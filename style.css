@@ -1,45 +1,25 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+body{
+    background-color: pink;
+    margin: 0%;
+    padding: 0%;
 }
 
-header {
-    background: #333;
+
+.navbar {
+    background-color: red;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  .navbar a {
+    display: inline-block;
     color: white;
-    text-align: center;
-    padding: 1em 0;
-}
-
-.categories {
-    text-align: center;
-    margin: 20px 0;
-}
-
-button {
-    margin: 0 10px;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-}
-
-.car-gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.car-item {
-    border: 1px solid #ddd;
-    margin: 10px;
-    padding: 10px;
-    width: 200px;
-    text-align: center;
-}
-
-footer {
-    text-align: center;
-    padding: 1em 0;
-    background: #333;
-    color: white;
-}
+    text-decoration: none;
+    padding: 14px 20px;
+    transition: background-color 0.3s;
+  }
+  
+  .navbar a:hover {
+    background-color: #3a0909;
+    color: rgb(231, 235, 18);
+  }
