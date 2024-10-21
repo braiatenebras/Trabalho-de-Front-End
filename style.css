@@ -1,25 +1,63 @@
 body{
-    background-color: pink;
-    margin: 0%;
+  background-color: rgb(0, 0, 0);  
+  margin: 0%;
     padding: 0%;
 }
-
-
 .navbar {
     background-color: red;
     overflow: hidden;
     text-align: center;
   }
-  
-  .navbar a {
+.navbar a {
     display: inline-block;
     color: white;
     text-decoration: none;
     padding: 14px 20px;
-    transition: background-color 0.3s;
   }
-  
-  .navbar a:hover {
+.navbar a:hover {
     background-color: #3a0909;
-    color: rgb(231, 235, 18);
+    color: black;
   }
+  .inicio {
+  color: red;
+  }
+
+.button {
+  margin: 0;
+  height: auto;
+  background: transparent;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+}
+
+.button {
+  --border-right: 6px;
+  --text-stroke-color: rgba(255,255,255,0.6);
+  --animation-color: red;
+  --fs-size: 2em;
+  letter-spacing: 3px;
+  text-decoration: none;
+  font-size: var(--fs-size);
+  font-family: "Arial";
+  position: relative;
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke: 1px var(--text-stroke-color);
+}
+.hover-text {
+  position: absolute;
+  box-sizing: border-box;
+  content: attr(data-text);
+  color: var(--animation-color);
+  width: 0%;
+  inset: 0;
+  border-right: var(--border-right) solid var(--animation-color);
+  overflow: hidden;
+  transition: 0.5s;
+  -webkit-text-stroke: 1px var(--animation-color);
+}
+.button:hover .hover-text {
+  width: 100%;
+  filter: drop-shadow(0 0 23px var(--animation-color))
+}
