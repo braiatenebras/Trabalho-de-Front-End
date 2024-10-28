@@ -1,0 +1,27 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.navbar {
+    background-color: #881011;
+    overflow: hidden;
+    text-align: center;
+}
+
+.navbar a {
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 14px 20px;
+}
+
+.navbar a:hover {
+    background-color: #083d11;
+    color: rgb(255, 255, 255);
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+    font-size: 32px;
+}
