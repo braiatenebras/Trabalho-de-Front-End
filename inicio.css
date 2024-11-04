@@ -19,7 +19,7 @@ body{
     font-size: larger;
 }
 header {
-    background-color: rgb(255, 169, 169);
+    background-color: rgb(146, 4, 4);
     color: white;
     font-family: 'Times New Roman', Times, serif;
     padding: 20px;
@@ -32,43 +32,10 @@ section {
     margin: 1em;
     border-radius: 8px;
   }
-  h2 {
-    color: #033f38;
-  }
   h3 {
     color: #3ba746;
   }
   p {
     font-size: medium;
   }
-  #Nossas_acoes {
-    background-color: #d6f5f9;
-    padding: 20px;
-    margin: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  #Nossas_acoes h1 {
-    color: #004d40;
-    font-size: 1.8em;
-    margin-bottom: 10px;
-  }
-  #Nossas_acoes form {
-    margin-top: 20px;
-  }
-  #Nossas_acoes label {
-    display: block;
-    font-weight: bold;
-    margin-bottom: 8px;
-  }
-  #Nossas_acoes select {
-    width: 100%;
-    padding: 10px;
-    font-size: 1em;
-    border: 1px solid #004d40;
-    border-radius: 4px;
-    background-color: #ffffff;
-    color: #004d40;
-  }
-
 
