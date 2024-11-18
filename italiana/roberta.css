@@ -1,43 +1,70 @@
-body{
-    background-color: white;
-    margin: 0%;
-      padding: 0%;
-  }
-  .button {
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
     margin: 0;
-    height: auto;
-    background: transparent;
     padding: 0;
-    border: none;
-    cursor: pointer;
   }
-  .button {
-    border-right: 6px;
-    --text-stroke-color: rgba(255,255,255,0.6);
-    --animation-color: red;
-    --fs-size: 2em;
-    letter-spacing: 3px;
-    text-decoration: none;
-    font-size: var(--fs-size);
-    font-family: "Arial";
-    position: relative;
-    text-transform: uppercase;
-    color: transparent;
-    -webkit-text-stroke: 1px var(--text-stroke-color);
+  
+  header {
+    background-color: #e53935;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
   }
-  .hover-text {
-    position: absolute;
-    box-sizing: border-box;
-    content: attr(data-text);
-    color: var(--animation-color);
-    width: 0%;
-    inset: 0;
-    border-right: var(--border-right) solid var(--animation-color);
+  
+  nav {
+    background-color: #c62828;
     overflow: hidden;
-    transition: 0.5s;
-    -webkit-text-stroke: 1px var(--animation-color);
   }
-  .button:hover .hover-text {
+  
+  nav a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  nav a:hover {
+    background-color: #b71c1c;
+  }
+  
+  .container {
+    padding: 20px;
+  }
+  
+  .section-title {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .recipe-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    padding: 15px;
+  }
+  
+  .recipe-card h2 {
+    margin-top: 0;
+    color: #c62828;
+  }
+  
+  .recipe-card ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .recipe-card ul li {
+    margin: 5px 0;
+  }   
+  .footer {
+    background-color: #e53935;
+    color: white;
+    text-align: center;
+    padding: 10px 0;                
     width: 100%;
-    filter: drop-shadow(0 0 23px var(--animation-color)) 
+    bottom: 0;
   }
+  
