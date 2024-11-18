@@ -58,3 +58,17 @@ section ol li {
     }
 }
 
+.flex-container {
+    display: flex; 
+}
+
+.text-content {
+    flex: 1; 
+}
+
+.img1, .img2 {
+    margin-right: 20px; 
+    width: 50%; 
+    height: auto; 
+    border-radius: 50px; 
+}
