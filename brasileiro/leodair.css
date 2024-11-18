@@ -1,18 +1,18 @@
-/* Resetando alguns estilos padrões */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Estilo geral do corpo da página */
+
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f4f4f9;
     color: #333;
 }
 
-/* Cabeçalho */
+
 header {
     background-color: #3e2a47;
     color: white;
@@ -25,7 +25,7 @@ header h1 {
     font-size: 2.5rem;
 }
 
-/* Navegação */
+
 nav {
     text-align: center;
     background-color: #6a4e77;
@@ -45,7 +45,7 @@ nav a:hover {
     background-color: #5a3d62;
 }
 
-/* Estilos das seções */
+
 section {
     padding: 30px 10%;
     max-width: 1200px;
@@ -58,7 +58,7 @@ section h2 {
     margin-bottom: 20px;
 }
 
-/* Conteúdo textual */
+
 .conteudo {
     line-height: 1.6;
 }
@@ -70,7 +70,7 @@ section h2 {
     margin-bottom: 20px;
 }
 
-/* Estilos para a lista de ingredientes e variações */
+
 .ingredientes, .variacoes {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -89,9 +89,9 @@ section h2 {
     margin: 5px 0;
 }
 
-/* Rodapé */
+
 footer {
-    background-color: #3e2a47;
+    background-color: #502f5f;
     color: white;
     text-align: center;
     padding: 15px 0;
