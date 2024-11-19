@@ -9,7 +9,7 @@
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f4f4f9;
-    color: #333;
+    color: #333333;
 }
 
 
@@ -94,8 +94,7 @@ footer {
     background-color: #502f5f;
     color: white;
     text-align: center;
-    padding: 15px 0;
-    position: fixed;
+    padding: 15px ;
     width: 100%;
     bottom: 0;
 }
