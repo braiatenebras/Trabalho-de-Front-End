@@ -17,7 +17,7 @@ section {
     padding: 20px;
     margin: 20px;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 30px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -209,14 +209,65 @@ section ol li {
         opacity: 0;
     }
 }
-html, body {
-    height: 100%;
-    margin: 0;
-}
-
 .container {
     display: flex;
     flex-direction: column; 
     align-items: center; 
-    height: 100vh; 
 }
+.card {
+    display: flex;
+    height: 70px;
+    width: 270px;
+    justify-content: center; /* Centraliza os itens horizontalmente */
+  }
+  
+  .card svg {
+    position: absolute;
+    display: flex;
+    width: 60%;
+    height: 100%;
+    font-size: 24px;
+    font-weight: 700;
+    opacity: 1;
+    transition: opacity 0.25s;
+    z-index: 2;
+    cursor: pointer;
+    fill: #000; 
+  }
+  
+  .card .social-link1,
+  .card .social-link2,
+  .card .social-link3,
+  .card .social-link4 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    color: #000; 
+    font-size: 24px;
+    text-decoration: none;
+    transition: 0.25s;
+    border-radius: 50px;
+    background-color: transparent; 
+  }
+  
+  .card .social-link1:hover {
+    background-color: #1a1e22;
+    animation: bounce_613 0.4s linear;
+  }
+  
+  .card .social-link2:hover {
+    background-color: #0a66c2;
+    animation: bounce_613 0.4s linear;
+  }
+  
+  .card .social-link3:hover {
+    background-color: #0059f7;
+    animation: bounce_613 0.4s linear;
+  }
+  
+  .card .social-link4:hover {
+    background-color: #1d4292;
+    animation: bounce_613 0.4s linear;
+  }
