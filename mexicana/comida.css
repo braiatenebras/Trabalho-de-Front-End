@@ -1,0 +1,122 @@
+body {
+    background-color: #dcdcdc;
+    margin: 0%;
+    padding: 0%;
+ }
+ nav {
+    background-color: #a51b0b;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+nav li {
+        float: left;
+        font-weight: bold;
+}
+nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+}
+nav li a {
+        display: block;
+        color: white;
+        padding: 25px;
+        text-decoration: none;
+}
+nav li a:hover {
+    color: white;
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    transition: all 0.5s;
+    cursor: pointer;
+    color: black;
+}
+section{
+   padding: 2em;
+   background-color: #abafaf;
+   margin: 1em;
+   border-radius: 15px;
+}
+ p{ 
+    text-align: justify;
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family: Roboto, sans-serif;
+ }
+ h1{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+    font-family: Roboto, sans-serif;
+ }
+ h2{
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family: Roboto, sans-serif;
+ }
+ .conteudo1{
+    display: flex;
+    flex-direction: row;
+ }
+ .conteudo1 img{
+    padding-left: 100px;
+    padding-right: 0px;
+    width: 500px;
+    height: auto;
+ }
+ .conteudo2{
+    display: flex;
+    align-items: center;
+ }
+ .conteudo2 img{
+    padding-left: 100px;
+    padding-right: 0px;
+    width: 500px;
+    height: auto;
+ }
+ .conteudo3{
+    display: flex;
+    align-items: center;
+ }
+ .conteudo3 img{
+    padding-left: 100px;
+    padding-right: 0px;
+    width: 500px;
+    height: auto;
+ }
+ .conteudo4{
+    display: flex;
+    align-items: center;
+ }
+ .conteudo4 img{
+    padding-left: 100px;
+    padding-right: 0px;
+    width: 500px;
+    height: auto;
+ }
+ .conteudo5{
+    display: flex;
+    align-items: center;
+ }
+ .conteudo5 img{
+    padding-left: 100px;
+    padding-right: 0px;
+    width: 500px;
+    height: auto;
+ }
+ footer {
+    background-color: #234F1E;
+    color: white;
+    padding: 50px;
+    text-align: center;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+ }
+ 
